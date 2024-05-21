@@ -1,0 +1,78 @@
+Notes:
+
++++Numbers+++
+There are four numeric Python data type
+a. int (signed integers)
+b. float (floating point real values)
+c. long (long integers, they can also be represented in octal and hexadecimal)
+d. complex (complex numbers)
+
++++Strings+++
+Strings are immutable.
+string1[1]
+
++++List+++
+List is collection objects in a given order. Lists are mutable. 
+list1 = []
+
+Can be accessed via list1[5]
+
+List Operations
+append()=> add items at the end of the list
+insert() => insert new element at index
+extend() => concat two list
+del => delete items
+remove() => search and delete
+pop() => remove last items
+reverse()=> reverse the list
+
++++Tuple+++
+Tuple is collection of objects in a given order and unchangeable.
+Tuples provide faster iteration compared to lists.
+
+tuple1 = ()
+
+del => deletes tuple; you can't delete elements in tuple
+
+Tuple Operations
+count()=> finds the appearence/count of an element passed within a tuple
+index()=> finds index of element passed
+sorted()=> sorts the tuple
+
++++Dictionary+++
+Dictionary is unordered collection of items stored in key-value pair.
+
+
+dictionary_name = { key_1: value_1,
+                    key_2: value_2,
+                    key_3: value_3,
+                    }
+                    
+Can be accessed via dict[key]
+
+Dictionary Operations
+pop() method
+popitem() method
+del keywords
+clear keyword
+
+
++++Sets+++
+
+Collection of unique elements. {}
+
+x = set()
+
+Set Operations
+
+add() => add items to set
+update() => add multiple items to set
+len() => length of set
+remove() => remove an item from set
+discard() => remove an item from set
+isdisjoint() => to check disjoint set [A disjoint set is one which does not have any common elements with other ste]
+union() => joins two sets but still shows the unique out of both the sets
+& => intersection to find common elements between two sets
+- => difference between two sets 
+
+
