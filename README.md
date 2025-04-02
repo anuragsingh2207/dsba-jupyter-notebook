@@ -1,4 +1,4 @@
-### jupyter-notebook
+### dsba-jupyter-notebook
 This repo contains jupyter notebooks on below
 * Basic python
 * Exploratory Data Analysis via NumPy, Pandas, Matplotlib, Seaborn.
